@@ -1,3 +1,74 @@
+#logo{
+
+color: #F9FAF8;
+font-size: 24px;
+
+}
+
+#mainsentence{
+
+font-size: 48px;
+
+}
+
+#mainparagraph{
+
+font-size: 18px;
+
+}
+
+#button{
+
+background-color: #3882f6;
+border: none;
+color: white;
+padding: 20px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+border-radius: 8px;
+
+
+}
+
+#ctabutton{
+
+    background-color: #3882f6;
+    color: white;
+    border-color: #F9FAF8;
+    padding: 20px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 8px;
+
+    
+
+
+}
+
+
+#pielove{
+
+font-size: 36px;
+font-weight: bolder;
+color: #1F2937;
+
+
+}
+
+.roundedcorner{
+
+
+border-radius: 30px;
+border: 5px solid lightblue;
+
+}
+
+
+
 .header {
 
  background-color: #1F2937;
@@ -48,22 +119,35 @@ justify-content: space-around;
 text-align: center;
 }
 
-
 .quote{
 
 display: flex;
 flex: 1;
 justify-content: center;
-background-color: aqua;
+background-color: #e5e7eb;
+font-size: 36px;
+font-style: italic;
+color:#1F2937
 }
 
 .calltoaction{
 
     display: flex;
     flex-direction: row;
-    background-color: #1F2937;
+    background-color: #3882f6;
     color: #f9faf8;
     justify-content: space-around;
     align-items: baseline;
+    border-radius: 30px;
     
+}
+
+.footer{
+
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: #1F2937;
+color: #f9faf8;
+
 }
